@@ -10,7 +10,7 @@
 #gnome-terminal --window-with-profile=DesktopConsole &
 #tilda &
 # Programs that will run after Openbox has started
-#setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll us,gr &
+setxkbmap -option grp:switch,grp:alt_shift_toggle,grp_led:scroll us,gr &
 #dropbox start
 #pytyle &
 #wicd-client &
@@ -19,4 +19,8 @@
 #conky -p 4 &
 #xmodmap ~/.xmodmaprc &
 #gnome-do &
+tint2 &
 wallpaper &
+nitrogen --restore &
+(sleep 3 && nm-applet --sm-disable) &
+

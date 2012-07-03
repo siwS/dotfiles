@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>1977-Black</name>
+    <name>Anchos</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -257,7 +257,8 @@
     <!--keybindings for applications-->
     <keybind key="F11"><action name="ToggleFullscreen"/></keybind>
     
-    <keybind key="W-f"><action name="Execute"><execute>firefox-bin</execute></action></keybind>
+    <keybind key="W-f"><action name="Execute"><execute>firefox</execute></action></keybind>
+    <keybind key="W-n"><action name="Execute"><execute>pavucontrol</execute></action></keybind>
     <keybind key="W-t"><action name="Execute"><execute>pcmanfm</execute></action></keybind>
     <keybind key="W-m"><action name="Execute"><execute>thunderbird</execute></action></keybind>
     <keybind key="W-s"><action name="Execute"><execute>skype</execute></action></keybind>
